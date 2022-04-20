@@ -656,7 +656,6 @@ footer a{
         color:white;
         font-size:18px;
         border-radius:25px;
-        border:2px solid blue;
     }
     button[id="hd-btn2"]{
         width:240px;
@@ -666,7 +665,6 @@ footer a{
         color:white;
         font-size:18px;
         border-radius:30px;
-        border:2px solid blue;
     }
 }
 @media screen and (max-width:430px){
