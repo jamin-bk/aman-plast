@@ -70,7 +70,7 @@ button[id="hd-btn1"]{
     font-size:18px;
     border-radius:25px;
     border:0;
-    background-color: rgb(58, 206, 52);
+    background-color: rgb(23, 42, 92);
 }
 button[id="hd-btn2"]{
     width:320px;
@@ -655,7 +655,6 @@ footer a{
         font-size:18px;
         border-radius:25px;
         border:0;
-        background-color: rgb(58, 206, 52);
     }
     button[id="hd-btn2"]{
         width:240px;
@@ -666,7 +665,6 @@ footer a{
         font-size:18px;
         border-radius:30px;
         border:0;
-        background-color: rgb(58, 206, 52);
     }
 }
 @media screen and (max-width:430px){
