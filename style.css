@@ -8,8 +8,27 @@ body{
     
 
 }
+#head a img{
+    height:34px;
+    width:50px;
+    
+    align-self: center;
+    vertical-align:middle ;
+    align-items: center;
 
 
+}
+a img{
+    height:26px;
+    align-self: center;
+    vertical-align:middle ;
+    align-items: center;
+    
+    width:50px;
+}
+a{
+    text-decoration: none;
+}
 
 header{
     height:680px;
@@ -25,20 +44,24 @@ header{
     max-width:1380px;
     min-width: 800px;
     text-align: center;
+    width: 100%;
 }
 
-#head p{
-    margin:2px 40px;
-    font-weight: 500;
-    vertical-align: middle;
+#head div{
     align-self: center;
+    vertical-align: middle;
+    width:33% ;
+    justify-content: center;
+
+}
+#head p{
+    font-weight: 500;
+   
+    
 }
 #head img{
-    vertical-align: middle;
-    align-self: center;
     height:60px;
 }
-
 .header-div{
     padding:6%;
     color:white;
@@ -596,7 +619,7 @@ footer a{
     body{
         margin:0;
         font-family: Roboto;
-        font-size: 16px;
+        font-size: 20px;
         font-weight: 300;
     
     }
@@ -618,12 +641,34 @@ footer a{
         padding:10px 0;
         max-width:430px;
         min-width:350px;
+        text-align: start;
+    }
+    #head div{
+        width: 100%;
+    
+    }
+    
+    #fucken-img{
+        text-align: center;
+    }
+    #head a img{
+        height:26px;
+        width:50px;
+
+
     }
     #head p{
         margin:1px 4px;
         font-weight: 300;
         font-size:16px;
     }
+    /* #head a{
+        
+    align-self: flex-start;
+    vertical-align: middle;
+    justify-content: flex-start;
+
+    } */
     #head img{
         width:150px;
         height:30px;
@@ -676,13 +721,14 @@ footer a{
         margin-top:20px;
     }
     h1{
+        padding:0;
         margin:30px 0;
-        font-size: 24px;
+        font-size: 25px;
         font-weight: 500;
         font-family: Roboto;
     }
     h3{
-        font-size: 20px;
+        font-size: 22px;
         font-weight: 500;
         font-family: Roboto;
     }
@@ -737,8 +783,10 @@ footer a{
 @media screen and (max-width:430px){
         
     .intro{
+        margin-top:80px;
+        padding-top:50px;
         width:90%;
-        font-size:22px;
+        font-size:20px;
     }
 
     .list{
@@ -779,6 +827,7 @@ footer a{
         text-align: center;
         max-width:430px;
         min-width: 350px;
+        font-weight: 500;
     }
     
     .magazine-div{
@@ -791,7 +840,7 @@ footer a{
     }
     
     .camera-div{
-        font-size: 20px;
+        font-size: 22px;
         display:flex;
         flex-direction: column;
         justify-content: center;
@@ -883,9 +932,11 @@ footer a{
     .profiles-div li{
         display:flex;
         padding: 5px;
+        font-size: 22px;
     }
     .profiles-p{
-        font-size: 18px;
+        font-size: 22px;
+        font-weight: 500;
     }
     .profiles-border{
         border-bottom:1px solid grey;
@@ -902,6 +953,7 @@ footer a{
         padding:10px;
         margin: 0 auto;
         margin-bottom:90px;
+        font-weight: 500;
         
     }
     .installation-div h3{
@@ -986,6 +1038,7 @@ footer a{
         padding:20px 5px;
         text-align: center;
     }
+    
     #ajax-contact-form{
         display:flex;
         flex-direction: column;
@@ -1042,5 +1095,19 @@ footer a{
         height:50px;
         border-radius:25px;
         border:0;
+    }
+}
+
+
+
+@media screen and (max-width:430px){
+
+    footer ul{
+        text-align: start;
+        padding-top:6px;
+        padding-left:4vw;
+        list-style: none;
+        padding-bottom:20px;
+        margin:0;
     }
 }
