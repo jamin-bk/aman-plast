@@ -40,6 +40,7 @@ header{
     display:flex;
     flex-direction: row;
     justify-content: center;
+    margin: 0 auto;
     padding:10px;
     max-width:1380px;
     min-width: 800px;
@@ -50,15 +51,28 @@ header{
 #head div{
     align-self: center;
     vertical-align: middle;
-    width:33% ;
+    align-items: center;
     justify-content: center;
+    padding:0 20px;
+    
+}
+@media screen and (max-width:1500px) {
+    #head{
+        padding:10px 0;
+    }
+}
+@media screen and (max-width:1300px) {
+    #head div{
+        padding: 0.3%;
+    }
 
 }
 #head p{
     font-weight: 500;
-   
-    
+    margin:0;
+    width: 100%;
 }
+
 #head img{
     height:60px;
 }
@@ -450,6 +464,7 @@ section{
     display:flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     padding:10%;
     margin: 0 auto;
     margin-bottom:90px;
@@ -638,13 +653,14 @@ footer a{
         display:flex;
         flex-direction: column;
         justify-content: center;
-        padding:10px 0;
+        padding:12px 0;
         max-width:430px;
         min-width:350px;
         text-align: start;
     }
     #head div{
         width: 100%;
+        padding: 0;
     
     }
     
@@ -658,7 +674,7 @@ footer a{
 
     }
     #head p{
-        margin:1px 4px;
+        margin:1px 0;
         font-weight: 300;
         font-size:16px;
     }
