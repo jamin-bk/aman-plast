@@ -453,7 +453,7 @@ section{
     padding:10%;
     margin: 0 auto;
     margin-bottom:90px;
-    
+    font-size: 26px;
 }
 .order{
     padding-top: 20px;
@@ -954,6 +954,7 @@ footer a{
         margin: 0 auto;
         margin-bottom:90px;
         font-weight: 300;
+        font-size: 22px;
         
     }
     .installation-div h3{
